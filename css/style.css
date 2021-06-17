@@ -5,7 +5,8 @@
 /* zmienne kolorów */
 :root {
     --dark: #161616;
-    --light: #EDF1FD;
+    /* --light: #EDF1FD; */
+    --light: rgb(195,226,220);
     --light-nav:#F4F7FF;
     --font-color:#292929;
     --box-shadow: rgba (0,0,0,0.5);
