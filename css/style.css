@@ -259,8 +259,8 @@ transition: all ease 1s;
 
 .s-box {
     width: 350px;
-    height: 500px;
-    background-color: var(--gray);
+    height: 450px;
+    /* background-color: black; */
     margin: 20px;
     border-radius: 10px;
     overflow: hidden;
@@ -269,14 +269,17 @@ transition: all ease 1s;
 }
 
 .s-b-img { 
+    margin-top: 50px;
     width: 100%;
-    height: 70%;
+    height: 100%;
 
 }
 
 
 
-
+#cv_anchor {
+    margin-top: 100px;
+}
 
 
 
@@ -290,11 +293,13 @@ transition: all ease 1s;
     font-family: calibri, sans-serif;
     background-color: var(--dark);
     font-size: 18px;
-    padding: 10px 15px;
+    padding: 10px 0px;
     position: absolute;
     top: 0;
-    left: 50%;
-    transform: translatex(-50%);
+    text-align: center;
+    /* left: 50%; */
+    width: 100%;
+    /* transform: translatex(-50%); */
     border-radius: 0 0 10px 10px;
     box-shadow: 2px 2px 12px var(--green);
 
