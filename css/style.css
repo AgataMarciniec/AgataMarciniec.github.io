@@ -29,6 +29,10 @@ a {
     text-decoration: none;
 }
 
+.color-light {
+    color:var(--light);
+}
+
 /* main */
 #main {
 background-image: url("../images/bg.png");
